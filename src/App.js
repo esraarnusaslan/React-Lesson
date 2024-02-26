@@ -1,7 +1,12 @@
+import ControlMenu from "./components/02-jsx/ControlMenu";
+
+/*
+
 import React from 'react';
-import MyReact from './components/01-hello-world/MyReact';
-import Jsx1 from './components/01-hello-world/Jsx1';
-/* import HelloWorld from './components/01-hello-world/HelloWorld.jsx'; 
+import Jsx2 from './components/02-jsx/Jsx2';
+ import MyReact from './components/01-hello-world/MyReact';
+import Jsx1 from './components/02-jsx/Jsx1.jsx';
+import HelloWorld from './components/01-hello-world/HelloWorld.jsx'; 
 import MyFruit, { MyApple } from './components/01-hello-world/MyApp.jsx';
 */
 const App = () => {
@@ -11,10 +16,14 @@ const App = () => {
                     <HelloWorld />
                     <MyApple />
                     <MyFruit />
-
+                    <MyReact />
+                    <Jsx1 />
+                    <Jsx2 />
             */}
-            <MyReact />
-            <Jsx1 />
+
+            <ControlMenu />
+
+            
         </div>
     );
 };
