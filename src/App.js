@@ -1,8 +1,9 @@
-import Products from "./components/02-jsx/Products.jsx";
+import InlineStyle from "./components/03-styles/InlineStyle";
+
 
 /*
 
-
+import Products from "./components/02-jsx/Products.jsx";
 import Products from "./components/02-jsx/Products";
 import Countries from './components/02-jsx/Countries';
 import Jsx4Map from "./components/02-jsx/Jsx4Map";
@@ -30,8 +31,11 @@ const App = () => {
                     <Jsx4Map />
                     <Countries />
                     <Products />
+                    <Products />
             */}
-            <Products />
+
+            <InlineStyle />
+            
         </div>
     );
 };
