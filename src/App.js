@@ -1,8 +1,9 @@
-import InlineStyle from "./components/03-styles/InlineStyle";
+import InternalStyles from "./components/03-styles/InternalStyles";
+
 
 
 /*
-
+import InlineStyle from "./components/03-styles/InlineStyle";
 import Products from "./components/02-jsx/Products.jsx";
 import Products from "./components/02-jsx/Products";
 import Countries from './components/02-jsx/Countries';
@@ -32,9 +33,12 @@ const App = () => {
                     <Countries />
                     <Products />
                     <Products />
+                    <InlineStyle />
             */}
 
-            <InlineStyle />
+            <InternalStyles />
+
+            
             
         </div>
     );
