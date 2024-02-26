@@ -1,3 +1,5 @@
+import Jsx4Map from "./components/02-jsx/Jsx4Map";
+
 /*
 import Jsx3ShortCircuit from "./components/02-jsx/Jsx3ShortCircuit.jsx";
 import ControlMenu from "./components/02-jsx/ControlMenu";
@@ -21,6 +23,7 @@ const App = () => {
                     <ControlMenu />
                     <Jsx3ShortCircuit />
             */}
+            <Jsx4Map />
         </div>
     );
 };
