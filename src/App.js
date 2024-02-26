@@ -1,9 +1,9 @@
-import Products from "./components/02-jsx/Products";
+import Products from "./components/02-jsx/Products.jsx";
 
 /*
 
 
-
+import Products from "./components/02-jsx/Products";
 import Countries from './components/02-jsx/Countries';
 import Jsx4Map from "./components/02-jsx/Jsx4Map";
 import Jsx3ShortCircuit from "./components/02-jsx/Jsx3ShortCircuit.jsx";
@@ -29,8 +29,8 @@ const App = () => {
                     <Jsx3ShortCircuit />
                     <Jsx4Map />
                     <Countries />
+                    <Products />
             */}
-
             <Products />
         </div>
     );
