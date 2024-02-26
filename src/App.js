@@ -1,7 +1,10 @@
-import Countries from './components/02-jsx/Countries';
+import Products from "./components/02-jsx/Products";
 
 /*
 
+
+
+import Countries from './components/02-jsx/Countries';
 import Jsx4Map from "./components/02-jsx/Jsx4Map";
 import Jsx3ShortCircuit from "./components/02-jsx/Jsx3ShortCircuit.jsx";
 import ControlMenu from "./components/02-jsx/ControlMenu";
@@ -25,9 +28,10 @@ const App = () => {
                     <ControlMenu />
                     <Jsx3ShortCircuit />
                     <Jsx4Map />
+                    <Countries />
             */}
 
-            <Countries />
+            <Products />
         </div>
     );
 };
