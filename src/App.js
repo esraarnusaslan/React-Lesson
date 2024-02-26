@@ -1,7 +1,7 @@
-import ControlMenu from "./components/02-jsx/ControlMenu";
+import Jsx3ShortCircuit from "./components/02-jsx/Jsx3ShortCircuit.jsx";
 
 /*
-
+import ControlMenu from "./components/02-jsx/ControlMenu";
 import React from 'react';
 import Jsx2 from './components/02-jsx/Jsx2';
  import MyReact from './components/01-hello-world/MyReact';
@@ -19,11 +19,9 @@ const App = () => {
                     <MyReact />
                     <Jsx1 />
                     <Jsx2 />
+                    <ControlMenu />
             */}
-
-            <ControlMenu />
-
-            
+            <Jsx3ShortCircuit />
         </div>
     );
 };
