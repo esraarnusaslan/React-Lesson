@@ -1,6 +1,7 @@
-import Greetings from "./components/05-props-1/Greetings";
+import Products from "./components/06-props-2-children/Products";
 
 /*
+import Greetings from "./components/05-props-1/Greetings";
 import Clock from "./components/04-clock-1/Clock";
 import { ExternalSass } from "./components/03-styles/ExternalSass";
 import ExternalStyles from "./components/03-styles/ExternalStyles";
@@ -40,10 +41,10 @@ const App = () => {
                      <ExternalStyles />
                       <ExternalSass />
                      <Clock /> 
+                     <Greetings />
             */}
 
-            <Greetings />
-
+            <Products />
         </div>
     );
 };
