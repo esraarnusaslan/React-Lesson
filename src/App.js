@@ -1,6 +1,8 @@
-import { ExternalSass } from "./components/03-styles/ExternalSass";
+import Clock from "./components/04-clock-1/Clock";
 
 /*
+
+import { ExternalSass } from "./components/03-styles/ExternalSass";
 import ExternalStyles from "./components/03-styles/ExternalStyles";
 import InternalStyles from "./components/03-styles/InternalStyles";
 import InlineStyle from "./components/03-styles/InlineStyle";
@@ -36,9 +38,10 @@ const App = () => {
                     <InlineStyle />
                     <InternalStyles />
                      <ExternalStyles />
+                      <ExternalSass />
             */}
 
-            <ExternalSass />
+            <Clock />
         </div>
     );
 };
