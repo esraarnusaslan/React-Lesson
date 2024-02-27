@@ -1,8 +1,7 @@
-import Clock2 from "./components/07-clock-2/Clock2";
-
+import ImageAdd from "./components/08-image/ImageAdd";
 
 /*
-
+import Clock2 from './components/07-clock-2/Clock2';
 import Products from "./components/06-props-2-children/Products";
 import Greetings from "./components/05-props-1/Greetings";
 import Clock from "./components/04-clock-1/Clock";
@@ -46,11 +45,10 @@ const App = () => {
                      <Clock /> 
                      <Greetings />
                      <Products />
+                      <Clock2 textColor="red" backgroundColor="yellow"/>
             */}
 
-            <Clock2 textColor="red" backgroundColor="yellow"/>
-
-            
+            <ImageAdd />
         </div>
     );
 };
