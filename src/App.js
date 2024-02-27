@@ -1,8 +1,11 @@
-import InternalStyles from "./components/03-styles/InternalStyles";
+import ExternalStyles from "./components/03-styles/ExternalStyles";
+
 
 
 
 /*
+
+import InternalStyles from "./components/03-styles/InternalStyles";
 import InlineStyle from "./components/03-styles/InlineStyle";
 import Products from "./components/02-jsx/Products.jsx";
 import Products from "./components/02-jsx/Products";
@@ -34,9 +37,12 @@ const App = () => {
                     <Products />
                     <Products />
                     <InlineStyle />
+                    <InternalStyles />
             */}
 
-            <InternalStyles />
+            <ExternalStyles />
+
+            
 
             
             

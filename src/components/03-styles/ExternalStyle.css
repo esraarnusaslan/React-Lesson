@@ -1,0 +1,31 @@
+body {
+    background-color: rgba(82, 80, 80, 0.599);
+}
+
+h1 {
+    color: red;
+    font-size: 50px;
+    text-align: center;
+    background-color: yellow;
+    padding: 20px;
+}
+
+.divEl {
+    color: rgb(0, 255, 21);
+    font-size: 50px;
+    text-align: center;
+    background-color: yellow;
+    padding: 20px;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+    flex-wrap: wrap;
+}
+
+li {
+    list-style: none;
+}
