@@ -1,6 +1,7 @@
-import Gallery from "./components/08-image/Gallery";
+import ProfileCard from './components/09-profile-card/ProfileCard';
 
 /*
+import Gallery from "./components/08-image/Gallery";
 import ImageAdd from './components/08-image/ImageAdd';
 import Clock2 from './components/07-clock-2/Clock2';
 import Products from "./components/06-props-2-children/Products";
@@ -48,9 +49,16 @@ const App = () => {
                      <Products />
                       <Clock2 textColor="red" backgroundColor="yellow"/>
                       <ImageAdd /> 
+                       <Gallery />
             */}
-
-            <Gallery />
+            <ProfileCard
+                avatar="cooper.jpg"
+                name="Sheldon Lee Cooper"
+                location="San Francisco, CA"
+                shot="33"
+                followers="1000"
+                following="500"
+            />
         </div>
     );
 };
