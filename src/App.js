@@ -1,6 +1,9 @@
-import ProfileCard from './components/09-profile-card/ProfileCard';
+import ReactBootstrap from "./components/10-bootstrap/ReactBootstrap";
 
 /*
+
+import StaticBootstrap from "./components/10-bootstrap/StaticBootstrap";
+import ProfileCard from './components/09-profile-card/ProfileCard';
 import Gallery from "./components/08-image/Gallery";
 import ImageAdd from './components/08-image/ImageAdd';
 import Clock2 from './components/07-clock-2/Clock2';
@@ -50,15 +53,26 @@ const App = () => {
                       <Clock2 textColor="red" backgroundColor="yellow"/>
                       <ImageAdd /> 
                        <Gallery />
-            */}
-            <ProfileCard
+                      <ProfileCard
                 avatar="cooper.jpg"
                 name="Sheldon Lee Cooper"
                 location="San Francisco, CA"
                 shot="33"
                 followers="1000"
                 following="500"
-            />
+            />  
+            <StaticBootstrap />
+
+            */}
+
+            <ReactBootstrap />
+
+            
+
+
+
+
+
         </div>
     );
 };
