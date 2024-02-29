@@ -1,6 +1,8 @@
-import Icons from './components/11-icons/Icons';
+import Events from "./components/12-events/Events";
 
 /*
+
+import Icons from './components/11-icons/Icons';
 import ReactBootstrap from "./components/10-bootstrap/ReactBootstrap";
 import StaticBootstrap from "./components/10-bootstrap/StaticBootstrap";
 import ProfileCard from './components/09-profile-card/ProfileCard';
@@ -63,9 +65,12 @@ const App = () => {
             />  
             <StaticBootstrap />
             <ReactBootstrap />
+            <Icons />
+
+
             */}
 
-            <Icons />
+            <Events />
         </div>
     );
 };
