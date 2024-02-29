@@ -1,7 +1,7 @@
-import Events from "./components/12-events/Events";
+import Shop from './components/13-card-practice/Shop';
 
 /*
-
+import Events from "./components/12-events/Events";
 import Icons from './components/11-icons/Icons';
 import ReactBootstrap from "./components/10-bootstrap/ReactBootstrap";
 import StaticBootstrap from "./components/10-bootstrap/StaticBootstrap";
@@ -66,11 +66,11 @@ const App = () => {
             <StaticBootstrap />
             <ReactBootstrap />
             <Icons />
-
+            <Events />
 
             */}
 
-            <Events />
+            <Shop />
         </div>
     );
 };
