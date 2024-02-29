@@ -1,7 +1,7 @@
-import ReactBootstrap from "./components/10-bootstrap/ReactBootstrap";
+import Icons from './components/11-icons/Icons';
 
 /*
-
+import ReactBootstrap from "./components/10-bootstrap/ReactBootstrap";
 import StaticBootstrap from "./components/10-bootstrap/StaticBootstrap";
 import ProfileCard from './components/09-profile-card/ProfileCard';
 import Gallery from "./components/08-image/Gallery";
@@ -62,17 +62,10 @@ const App = () => {
                 following="500"
             />  
             <StaticBootstrap />
-
+            <ReactBootstrap />
             */}
 
-            <ReactBootstrap />
-
-            
-
-
-
-
-
+            <Icons />
         </div>
     );
 };
