@@ -1,8 +1,8 @@
 import React from 'react';
-import ESignature from './components/16-e-signatur/ESignature';
-import './App.css';
+import UseEffect from './components/17-useEffect/UseEffect';
 
-/*
+/*import ESignature from './components/16-e-signatur/ESignature';
+import './App.css';
 import StateModeExm from "./components/14-useState/StateModeExm";
 import Counter from "./components/15-counter/Counter";
 import Shop from './components/13-card-practice/Shop';
@@ -74,9 +74,11 @@ const App = () => {
             <Shop />
             <StateModeExm />
              <Counter />
+            <ESignature />
+
             */}
 
-            <ESignature />
+            <UseEffect />
         </div>
     );
 };
