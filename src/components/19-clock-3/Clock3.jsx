@@ -12,7 +12,7 @@ const Clock3 = () => {
         return () => {
             clearInterval(timer);
         };
-    }, []);
+    }, [dateTime]);
 
     const time = moment().format('LT');
     const date = moment().format('ll');
