@@ -1,8 +1,10 @@
 import React from 'react';
 import './App.css';
-import UseRef from './components/20-useRef/UseRef';
+import ClassComp from './components/21-components-types/ClassComp';
+
 
 /*
+import UseRef from './components/20-useRef/UseRef';
 import Clock3 from './components/19-clock-3/Clock3';
 import CountryFilter from './components/18-country-filter/CountryFilter';
 import Counter from './components/17-useEffect/Counter';
@@ -84,9 +86,12 @@ const App = () => {
             <Counter />
             <CountryFilter />
             <Clock3 />
+            <UseRef />
             */}
 
-            <UseRef />
+            <ClassComp />
+
+            
 
             
         </div>
