@@ -1,6 +1,7 @@
-import Shop from './components/13-card-practice/Shop';
+import StateModeExm from "./components/14-useState/StateModeExm";
 
 /*
+import Shop from './components/13-card-practice/Shop';
 import Events from "./components/12-events/Events";
 import Icons from './components/11-icons/Icons';
 import ReactBootstrap from "./components/10-bootstrap/ReactBootstrap";
@@ -67,10 +68,10 @@ const App = () => {
             <ReactBootstrap />
             <Icons />
             <Events />
-
+            <Shop />
             */}
 
-            <Shop />
+            <StateModeExm />
         </div>
     );
 };
