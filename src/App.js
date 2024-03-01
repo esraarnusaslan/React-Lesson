@@ -1,8 +1,9 @@
 import React from 'react';
-import Counter from './components/17-useEffect/Counter';
+import CountryFilter from './components/18-country-filter/CountryFilter';
+
 
 /*
-
+import Counter from './components/17-useEffect/Counter';
 import UseEffect from './components/17-useEffect/UseEffect';
 import ESignature from './components/16-e-signatur/ESignature';
 import './App.css';
@@ -79,9 +80,12 @@ const App = () => {
              <Counter />
             <ESignature />
             <UseEffect />
+            <Counter />
             */}
 
-            <Counter />
+            <CountryFilter />
+
+            
         </div>
     );
 };
