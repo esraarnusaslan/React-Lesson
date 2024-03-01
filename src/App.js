@@ -1,7 +1,10 @@
 import React from 'react';
-import UseEffect from './components/17-useEffect/UseEffect';
+import Counter from './components/17-useEffect/Counter';
 
-/*import ESignature from './components/16-e-signatur/ESignature';
+/*
+
+import UseEffect from './components/17-useEffect/UseEffect';
+import ESignature from './components/16-e-signatur/ESignature';
 import './App.css';
 import StateModeExm from "./components/14-useState/StateModeExm";
 import Counter from "./components/15-counter/Counter";
@@ -75,10 +78,10 @@ const App = () => {
             <StateModeExm />
              <Counter />
             <ESignature />
-
+            <UseEffect />
             */}
 
-            <UseEffect />
+            <Counter />
         </div>
     );
 };
