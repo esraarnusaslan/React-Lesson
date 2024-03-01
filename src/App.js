@@ -1,4 +1,5 @@
 import StateModeExm from "./components/14-useState/StateModeExm";
+import Counter from "./components/15-counter/Counter";
 
 /*
 import Shop from './components/13-card-practice/Shop';
@@ -69,9 +70,10 @@ const App = () => {
             <Icons />
             <Events />
             <Shop />
+            <StateModeExm />
             */}
 
-            <StateModeExm />
+            <Counter />
         </div>
     );
 };
