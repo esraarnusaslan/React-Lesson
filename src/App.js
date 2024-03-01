@@ -1,12 +1,13 @@
 import React from 'react';
-import Clock3 from './components/19-clock-3/Clock3';
+import './App.css';
+import UseRef from './components/20-useRef/UseRef';
 
 /*
+import Clock3 from './components/19-clock-3/Clock3';
 import CountryFilter from './components/18-country-filter/CountryFilter';
 import Counter from './components/17-useEffect/Counter';
 import UseEffect from './components/17-useEffect/UseEffect';
 import ESignature from './components/16-e-signatur/ESignature';
-import './App.css';
 import StateModeExm from "./components/14-useState/StateModeExm";
 import Counter from "./components/15-counter/Counter";
 import Shop from './components/13-card-practice/Shop';
@@ -82,9 +83,12 @@ const App = () => {
             <UseEffect />
             <Counter />
             <CountryFilter />
+            <Clock3 />
             */}
 
-            <Clock3 />
+            <UseRef />
+
+            
         </div>
     );
 };
