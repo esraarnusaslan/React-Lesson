@@ -1,8 +1,10 @@
 import React from 'react';
 import './App.css';
-import Form2 from './components/25-forms/Form2';
+import Form3 from './components/25-forms/Form3';
+
 
 /*
+import Form2 from './components/25-forms/Form2';
 import Form1 from './components/25-forms/Form1';
 import ParentComponent from './components/24-lifting-state-up/ParentComponent';
 import Countries from './components/23-axios/Countries';
@@ -96,9 +98,10 @@ const App = () => {
             <Countries />
             <ParentComponent />
             <Form1 />
+            <Form2 />
             */}
 
-            <Form2 />
+            <Form3 />
         </div>
     );
 };
