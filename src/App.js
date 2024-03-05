@@ -1,9 +1,11 @@
 import React from 'react';
 import './App.css';
-import ClassComp from './components/21-components-types/ClassComp';
+import Fetch1 from './components/22-fetch/Fetch1';
 
 
 /*
+
+import ClassComp from './components/21-components-types/ClassComp';
 import UseRef from './components/20-useRef/UseRef';
 import Clock3 from './components/19-clock-3/Clock3';
 import CountryFilter from './components/18-country-filter/CountryFilter';
@@ -87,11 +89,10 @@ const App = () => {
             <CountryFilter />
             <Clock3 />
             <UseRef />
+            <ClassComp />
             */}
 
-            <ClassComp />
-
-            
+            <Fetch1 />
 
             
         </div>
