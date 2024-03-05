@@ -1,10 +1,9 @@
 import React from 'react';
 import './App.css';
-import Countries from './components/23-axios/Countries';
-
-
+import ParentComponent from './components/24-lifting-state-up/ParentComponent';
 
 /*
+import Countries from './components/23-axios/Countries';
 import Fetch1 from './components/22-fetch/Fetch1';
 import ClassComp from './components/21-components-types/ClassComp';
 import UseRef from './components/20-useRef/UseRef';
@@ -92,12 +91,10 @@ const App = () => {
             <UseRef />
             <ClassComp />
             <Fetch1 />
+            <Countries />
             */}
 
-<Countries />
-            
-
-            
+            <ParentComponent />
         </div>
     );
 };
