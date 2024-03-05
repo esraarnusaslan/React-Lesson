@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
-
-import Form1 from './components/25-forms/Form1';
+import Form2 from './components/25-forms/Form2';
 
 /*
+import Form1 from './components/25-forms/Form1';
 import ParentComponent from './components/24-lifting-state-up/ParentComponent';
 import Countries from './components/23-axios/Countries';
 import Fetch1 from './components/22-fetch/Fetch1';
@@ -95,9 +95,10 @@ const App = () => {
             <Fetch1 />
             <Countries />
             <ParentComponent />
+            <Form1 />
             */}
 
-            <Form1 />
+            <Form2 />
         </div>
     );
 };
