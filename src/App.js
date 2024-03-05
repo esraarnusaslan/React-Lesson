@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
-import Fetch1 from './components/22-fetch/Fetch1';
+import Countries from './components/23-axios/Countries';
+
 
 
 /*
-
+import Fetch1 from './components/22-fetch/Fetch1';
 import ClassComp from './components/21-components-types/ClassComp';
 import UseRef from './components/20-useRef/UseRef';
 import Clock3 from './components/19-clock-3/Clock3';
@@ -90,9 +91,11 @@ const App = () => {
             <Clock3 />
             <UseRef />
             <ClassComp />
+            <Fetch1 />
             */}
 
-            <Fetch1 />
+<Countries />
+            
 
             
         </div>
