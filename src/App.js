@@ -1,8 +1,10 @@
 import React from 'react';
 import './App.css';
-import ParentComponent from './components/24-lifting-state-up/ParentComponent';
+
+import Form1 from './components/25-forms/Form1';
 
 /*
+import ParentComponent from './components/24-lifting-state-up/ParentComponent';
 import Countries from './components/23-axios/Countries';
 import Fetch1 from './components/22-fetch/Fetch1';
 import ClassComp from './components/21-components-types/ClassComp';
@@ -92,9 +94,10 @@ const App = () => {
             <ClassComp />
             <Fetch1 />
             <Countries />
+            <ParentComponent />
             */}
 
-            <ParentComponent />
+            <Form1 />
         </div>
     );
 };
