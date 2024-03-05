@@ -3,10 +3,10 @@ import { Button, Container, Form } from 'react-bootstrap';
 
 const Form3 = () => {
     const [formData, setFormData] = useState({
-        firstName: '',
-        lastName: '',
-        email: '',
-        phone: '',
+        firstName: 'First Name',
+        lastName: 'Last Name',
+        email: 'Email',
+        phone: 'Phone',
     });
 
     const handleFormData = (e) => {
@@ -31,6 +31,7 @@ const Form3 = () => {
                     <Form.Control
                         type="text"
                         name="firstName"
+                        value={formData.firstName}
                         placeholder=""
                         onChange={handleFormData}
                     />
@@ -41,6 +42,7 @@ const Form3 = () => {
                     <Form.Control
                         type="text"
                         name="lastName"
+                        value={formData.lastName}
                         placeholder=""
                         onChange={handleFormData}
                     />
@@ -51,6 +53,7 @@ const Form3 = () => {
                     <Form.Control
                         type="email"
                         name="email"
+                        value={formData.email}
                         placeholder=""
                         onChange={handleFormData}
                     />
@@ -61,6 +64,7 @@ const Form3 = () => {
                     <Form.Control
                         type="text"
                         name="phone"
+                        value={formData.phone}
                         placeholder=""
                         onChange={handleFormData}
                     />
