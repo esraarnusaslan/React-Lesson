@@ -13,7 +13,7 @@ const router = createBrowserRouter([
         element: <HelloWorld />,
     },
     {
-        path: '/jsx',
+        path: '/control-menu',
         element: <ControlMeu />,
     },
 ]);
