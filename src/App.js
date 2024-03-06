@@ -1,9 +1,8 @@
 import React from 'react';
+import AppRouterProvider from './router';
 import './App.css';
-import Form5 from './components/25-forms/Form5';
-
-
 /*
+import Form5 from './components/25-forms/Form5';
 import Form4 from './components/25-forms/Form4';
 import Form3 from './components/25-forms/Form3';
 import Form2 from './components/25-forms/Form2';
@@ -49,9 +48,9 @@ import HelloWorld from './components/01-hello-world/HelloWorld.jsx';
 import MyFruit, { MyApple } from './components/01-hello-world/MyApp.jsx';
 */
 const App = () => {
-    return (
+    return <AppRouterProvider />;
+    /* {
         <div>
-            {/*
                     <HelloWorld />
                     <MyApple />
                     <MyFruit />
@@ -103,12 +102,9 @@ const App = () => {
             <Form2 />
             <Form3 />
             <Form4 />
-            */}
-
-<Form5 />
-            
-        </div>
-    );
+            <Form5 />
+        </div>    
+    };*/
 };
 
 export default App;
