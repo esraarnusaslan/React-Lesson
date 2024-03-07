@@ -25,6 +25,11 @@ const HomePage = () => {
                             Control Menu
                         </Link>
                     </Col>
+                    <Col>
+                        <Link to="/clock" className="btn btn-light btn-block">
+                            Clock
+                        </Link>
+                    </Col>
                 </Row>
             </Container>
         </div>
