@@ -7,6 +7,7 @@ import AppLayout from '../layout/index.jsx';
 import Countries from '../components/23-axios/Countries.jsx';
 import Movies from '../components/26-router/Movies.jsx';
 import MovieDetail from '../components/26-router/MovieDetail.jsx';
+import Exchange from '../components/27-context-api/exchange.jsx';
 
 const router = createBrowserRouter([
     {
@@ -46,6 +47,10 @@ const router = createBrowserRouter([
                         element: <MovieDetail />,
                     },
                 ],
+            },
+            {
+                path: 'exchange',
+                element: <Exchange />,
             },
         ],
     },

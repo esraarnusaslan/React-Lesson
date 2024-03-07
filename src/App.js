@@ -1,7 +1,8 @@
-import React, { useEffect } from 'react';
 import AppRouterProvider from './router';
 import './App.css';
-
+import StoreContext from './store';
+import { useEffect, useState } from 'react';
+import axios from 'axios';
 
 /*
 import Form5 from './components/25-forms/Form5';
@@ -50,8 +51,35 @@ import HelloWorld from './components/01-hello-world/HelloWorld.jsx';
 import MyFruit, { MyApple } from './components/01-hello-world/MyApp.jsx';
 */
 const App = () => {
- 
-    return <AppRouterProvider />;
+    const [counter, setCounter] = useState(100);
+    const [currencies, setCurrencies] = useState(null);
+
+    const loadData = async () => {
+        try {
+            const resp = await axios.get(
+                'https://api.frankfurter.app/latest?from=try'
+            );
+            const data = resp.data;
+
+            setCurrencies(data.rates);
+        } catch (err) {
+            console.log(err);
+        }
+    };
+
+    useEffect(() => {
+        loadData();
+    }, []);
+
+    if (!currencies) return null;
+
+    const sharedData = { counter, setCounter, currencies };
+
+    return (
+        <StoreContext.Provider value={{ counter, setCounter, currencies }}>
+            <AppRouterProvider />
+        </StoreContext.Provider>
+    );
     /* {
         <div>
                     <HelloWorld />

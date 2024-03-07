@@ -43,6 +43,14 @@ const HomePage = () => {
                             Movies
                         </Link>
                     </Col>
+                    <Col>
+                        <Link
+                            to="/exchange"
+                            className="btn btn-light btn-block"
+                        >
+                            Exchange
+                        </Link>
+                    </Col>
                 </Row>
             </Container>
         </div>
