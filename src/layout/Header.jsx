@@ -10,10 +10,9 @@ const Header = () => {
             <nav>
                 <Link to="/">Home</Link>
 
-                {pathname === '/movies' && (
+                {pathname.includes('/movies') && (
                     <>
-                        {' '}
-                        <span> | </span>{' '}
+                        <span> | </span>
                         <a
                             href="https://api.tvmaze.com/"
                             target="_blank"
