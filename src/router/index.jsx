@@ -5,6 +5,8 @@ import ControlMeu from '../components/02-jsx/Jsx4Map.jsx';
 import Clock3 from '../components/19-clock-3/Clock3.jsx';
 import AppLayout from '../layout/index.jsx';
 import Countries from '../components/23-axios/Countries.jsx';
+import Movies from '../components/26-router/Movies.jsx';
+import MovieDetail from '../components/26-router/MovieDetail.jsx';
 
 const router = createBrowserRouter([
     {
@@ -32,7 +34,19 @@ const router = createBrowserRouter([
                 path: 'countries',
                 element: <Countries />,
             },
-
+            {
+                path: 'movies',
+                children: [
+                    {
+                        index: 'true',
+                        element: <Movies />,
+                    },
+                    {
+                        path: ':movieId',
+                        element: <MovieDetail />,
+                    },
+                ],
+            },
         ],
     },
 ]);

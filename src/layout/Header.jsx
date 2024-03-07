@@ -10,13 +10,16 @@ const Header = () => {
             <nav>
                 <Link to="/">Home</Link>
 
-                
-                {pathname === '/control-menu' && (
+                {pathname === '/movies' && (
                     <>
                         {' '}
                         <span> | </span>{' '}
-                        <a href="https://en.wikipedia.org/wiki/React_(JavaScript_library)">
-                            Wikipedia
+                        <a
+                            href="https://api.tvmaze.com/"
+                            target="_blank"
+                            rel="noreferrer nofollow noopener"
+                        >
+                            TVmaze API
                         </a>
                     </>
                 )}
