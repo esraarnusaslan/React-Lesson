@@ -30,6 +30,14 @@ const HomePage = () => {
                             Clock
                         </Link>
                     </Col>
+                    <Col>
+                        <Link
+                            to="/countries"
+                            className="btn btn-light btn-block"
+                        >
+                            Countries
+                        </Link>
+                    </Col>
                 </Row>
             </Container>
         </div>
