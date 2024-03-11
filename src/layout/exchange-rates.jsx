@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import StoreContext from '../store';
 import { Badge } from 'react-bootstrap';
 
+
 const ExchangeRates = () => {
     const store = useContext(StoreContext);
     const { currencies } = store;

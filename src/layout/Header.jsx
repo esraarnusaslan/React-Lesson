@@ -5,6 +5,7 @@ import ExchangeRates from './exchange-rates';
 const Header = () => {
     const { pathname } = useLocation();
 
+    
     return (
         <header>
             <h1>React Examples</h1>

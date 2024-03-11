@@ -1,5 +1,6 @@
 import { createContext } from 'react';
 
+
 //bos bir merkezi state olusturuldu
 const StoreContext = createContext();
 
